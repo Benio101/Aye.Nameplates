@@ -1,0 +1,18 @@
+## Title: Aye.Nameplates
+## Notes: Nameplates
+## Depot: Aye
+## LoadOnDemand: 1
+## Author: Benio
+## Version: 0
+## Interface: 70100
+
+#core
+core/config.lua
+core/events.lua
+core/radar.lua
+core/radar.utils.lua
+
+#files
+Aye.Nameplates.lua
+Aye.Nameplates.options.lua
+Aye.Nameplates.options.default.lua
