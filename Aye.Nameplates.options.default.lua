@@ -27,7 +27,7 @@ Aye.default.global.Nameplates = {
 	--  5 = Enemy NPC: Normal
 	--  4 = Enemy NPC: Minus
 	--  3 = Enemy NPC: Trivial
-	--  1 = Friendly Player
+	----  1 = Friendly Player
 	
 	-- Targeting
 	targetEnable = true,
@@ -58,25 +58,25 @@ Aye.default.global.Nameplates = {
 	playerIconPriority = 15,
 	
 	-- Friendly Player
-	friendlyPlayerIconEnable = true,
-	friendlyPlayerIcon = "01" .."Circle",
-	friendlyPlayerIconColorConstant = false,
-	friendlyPlayerIconColor = (function()
-		local faction = UnitFactionGroup("player");
-		
-		-- return faction color
-		for factionID, factionName in pairs(PLAYER_FACTION_GROUP) do
-			if factionName == faction then
-				local color = PLAYER_FACTION_COLORS[factionID];
-				return {color.r, color.g, color.b, 1};
-			end;
-		end;
-		
-		-- fallback
-		return {1, 1, 1, .5};
-	end)(),
-	friendlyPlayerIconSize = 16,
-	friendlyPlayerIconPriority = 1,
+	--friendlyPlayerIconEnable = true,
+	--friendlyPlayerIcon = "01" .."Circle",
+	--friendlyPlayerIconColorConstant = false,
+	--friendlyPlayerIconColor = (function()
+	--	local faction = UnitFactionGroup("player");
+	--	
+	--	-- return faction color
+	--	for factionID, factionName in pairs(PLAYER_FACTION_GROUP) do
+	--		if factionName == faction then
+	--			local color = PLAYER_FACTION_COLORS[factionID];
+	--			return {color.r, color.g, color.b, 1};
+	--		end;
+	--	end;
+	--	
+	--	-- fallback
+	--	return {1, 1, 1, .5};
+	--end)(),
+	--friendlyPlayerIconSize = 16,
+	--friendlyPlayerIconPriority = 1,
 	
 	-- Enemy Player
 	enemyPlayerIconEnable = true,

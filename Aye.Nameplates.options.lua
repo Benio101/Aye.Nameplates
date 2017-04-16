@@ -469,11 +469,11 @@ Aye.options.args.Nameplates = {
 local i = 70;
 for unitID, option in pairs({
 	-- Friendly Player
-	{
-		id = "friendlyPlayer",
-		desc = "Friendly Player",
-		player = true,
-	},
+	--{
+	--	id = "friendlyPlayer",
+	--	desc = "Friendly Player",
+	--	player = true,
+	--},
 	-- Enemy Player
 	{
 		id = "enemyPlayer",
